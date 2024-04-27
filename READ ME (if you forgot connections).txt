@@ -1,0 +1,19 @@
+Connections:
+------Display------
+	GND - GND
+	VCC - 5V / 3.3V
+	SCL - D1 / GPIO 5
+	SDA - D2 / GPIO 4
+
+-----Buttons-----
+	btn1 - D7 / GPIO 13 (you should resolder this button, cause your 			dumbass put it on MOSI pin)  consider D0 / GPIO 16
+	btn2 - D3 / GPIO 0
+
+-----Micro SD shield-----
+	VCC   - 3.3V
+	GND  - GND 
+
+	CLK    - D5 / GPIO 14
+	MISO - D6 / GPIO 12
+	MOSI - D7 / GPIO 13 (see? told ya!)
+	CS       - D8 / GPIO 15
